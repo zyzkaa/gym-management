@@ -110,14 +110,6 @@ body{
     font-style: normal;
 }
 
-.bg-custom-header{
-    background-color: #795663;
-
-}
-
-.bg-custom-main{
-    background-color: whitesmoke;
-}
 
 header a{
     font-weight: 600 !important;

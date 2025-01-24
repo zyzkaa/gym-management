@@ -12,9 +12,10 @@
     {% bootstrap_javascript %}
     <link rel="stylesheet" href="{% static 'header.css' %}">
 </head>
-<body class="row me-2 ms-2 mt-2 bg-custom-main">
+<body>
     {% include 'core/header.html' %}
-    <main>
+<!--    <main class="container rounded-1 mt-2" style="background-color: #795663; color: white;">-->
+    <main class="container p-0" style="color: white;">
         {% block content %}
         {% endblock %}
     </main>
